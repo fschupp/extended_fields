@@ -1,0 +1,4 @@
+<option></option>
+<%= principals_options_for_select @users, params[:selected] %>
+<%= javascript_tag "$('##{params[:field_id]}').attr('size', #{[10, (@users.size+1)].min});" %>
+<%= javascript_tag "$('##{params[:field_id]}').on('click', function() { $('##{params[:field_id]}').attr('size', 1); });" %>
