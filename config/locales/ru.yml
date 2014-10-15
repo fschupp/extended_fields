@@ -25,6 +25,7 @@ ru:
   label_assigned_open_issues: Назначенные открытые задачи
   label_repository_files: Файлов в хранилище
   label_forum_messages: Сообщений в форумах
+  label_anyuser: Любой пользователь
   label_cancel: Отменить
 
   description_available_columns: Доступные колонки

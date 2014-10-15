@@ -25,6 +25,7 @@ en:
   label_assigned_open_issues: Assigned open issues
   label_repository_files: Repository files
   label_forum_messages: Forum messages
+  label_label_anyuser: Any user
   label_cancel: Cancel
 
   description_available_columns: Available Columns
