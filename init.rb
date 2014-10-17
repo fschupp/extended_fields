@@ -65,7 +65,7 @@ Rails.configuration.to_prepare do
     end
     if ActiveRecord::Base.connection.adapter_name =~ %r{mysql}i
         unless CalendarsController.included_modules.include?(ExtendedCalendarsControllerPatch)
-            CalendarsController.send(:include, ExtendedCalendarsControllerPatch)
+#            CalendarsController.send(:include, ExtendedCalendarsControllerPatch)
         end
     end
     if Redmine::VERSION::MAJOR == 2 && Redmine::VERSION::MINOR < 5
