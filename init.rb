@@ -135,11 +135,11 @@ end
 
 Redmine::Plugin.register :extended_fields do
     name 'Extended fields'
-    author 'Andriy Lesyuk'
+    author 'Felix Schupp (based on Andriy Lesyuk)'
     author_url 'http://www.andriylesyuk.com'
     description 'Adds new custom field types, improves listings etc.'
-    url 'http://projects.andriylesyuk.com/projects/extended-fields'
-    version '0.2.3'
+    url 'https://github.com/fschupp/extended_fields'
+    version '0.3.0'
 
     project_module :assign_to_any_user do
         permission :project_extended_fields_autocomplete_for_user, {:projects => [:extended_fields_autocomplete_for_user]}, :public => true, :read => true
