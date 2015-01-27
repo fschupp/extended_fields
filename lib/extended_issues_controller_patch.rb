@@ -1,6 +1,7 @@
 require_dependency 'issues_controller'
 
 module ExtendedIssuesControllerPatch
+    include ExtendedFieldsHelper
 
     def self.included(base)
         base.send(:include, InstanceMethods)
